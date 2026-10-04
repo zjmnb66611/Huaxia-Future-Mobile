@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Huaxia Interstellar",
+    "victoryScreenHeader": "建成星海方舟计划，迈向星际文明！",
+    "milestones": [
+      "Build [Huaxia Star Ark]"
+    ],
+    "victoryString": "你的文明建成了星海方舟，在深空开启新的篇章！",
+    "defeatString": "另一文明率先建成星海方舟，赢得了星际竞赛。"
+  }
+]

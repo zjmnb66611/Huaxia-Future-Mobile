@@ -1,0 +1,194 @@
+[
+  {
+    "columnNumber": 18,
+    "era": "Huaxia Digital era",
+    "techCost": 10000,
+    "buildingCost": 650,
+    "wonderCost": 1500,
+    "techs": [
+      {
+        "name": "Huaxia Quantum Computing",
+        "row": 2,
+        "prerequisites": [
+          "Computers",
+          "Particle Physics"
+        ],
+        "civilopediaText": [
+          {
+            "text": "量子计算：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Smart Materials",
+        "row": 5,
+        "prerequisites": [
+          "Nanotechnology",
+          "Lasers"
+        ],
+        "civilopediaText": [
+          {
+            "text": "智能材料：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Controlled Fusion",
+        "row": 8,
+        "prerequisites": [
+          "Nuclear Fusion"
+        ],
+        "civilopediaText": [
+          {
+            "text": "可控聚变：华夏未来整合包的科技分支。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 19,
+    "era": "Huaxia Digital era",
+    "techCost": 11000,
+    "buildingCost": 650,
+    "wonderCost": 1500,
+    "techs": [
+      {
+        "name": "Huaxia Autonomous Systems",
+        "row": 2,
+        "prerequisites": [
+          "Huaxia Quantum Computing",
+          "Huaxia Smart Materials"
+        ],
+        "civilopediaText": [
+          {
+            "text": "自主系统：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Nano Fabrication",
+        "row": 5,
+        "prerequisites": [
+          "Huaxia Smart Materials",
+          "Huaxia Controlled Fusion"
+        ],
+        "civilopediaText": [
+          {
+            "text": "纳米制造：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Climate Engineering",
+        "row": 8,
+        "prerequisites": [
+          "Huaxia Controlled Fusion",
+          "Globalization"
+        ],
+        "civilopediaText": [
+          {
+            "text": "生态工程：华夏未来整合包的科技分支。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 20,
+    "era": "Huaxia Orbital era",
+    "techCost": 12500,
+    "buildingCost": 650,
+    "wonderCost": 1500,
+    "techs": [
+      {
+        "name": "Huaxia Orbital Logistics",
+        "row": 2,
+        "prerequisites": [
+          "Huaxia Autonomous Systems",
+          "Satellites"
+        ],
+        "civilopediaText": [
+          {
+            "text": "轨道物流：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Directed Energy",
+        "row": 5,
+        "prerequisites": [
+          "Huaxia Nano Fabrication",
+          "Huaxia Quantum Computing"
+        ],
+        "civilopediaText": [
+          {
+            "text": "定向能技术：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Closed Ecosystems",
+        "row": 8,
+        "prerequisites": [
+          "Huaxia Climate Engineering",
+          "Huaxia Nano Fabrication"
+        ],
+        "civilopediaText": [
+          {
+            "text": "闭环生态：华夏未来整合包的科技分支。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 21,
+    "era": "Huaxia Orbital era",
+    "techCost": 14000,
+    "buildingCost": 650,
+    "wonderCost": 1500,
+    "techs": [
+      {
+        "name": "Huaxia Space Manufacturing",
+        "row": 2,
+        "prerequisites": [
+          "Huaxia Orbital Logistics",
+          "Huaxia Nano Fabrication"
+        ],
+        "civilopediaText": [
+          {
+            "text": "太空制造：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Deep Space Navigation",
+        "row": 5,
+        "prerequisites": [
+          "Huaxia Orbital Logistics",
+          "Huaxia Directed Energy"
+        ],
+        "civilopediaText": [
+          {
+            "text": "深空导航：华夏未来整合包的科技分支。"
+          }
+        ]
+      },
+      {
+        "name": "Huaxia Interstellar Civilization",
+        "row": 8,
+        "prerequisites": [
+          "Huaxia Space Manufacturing",
+          "Huaxia Deep Space Navigation",
+          "Huaxia Closed Ecosystems"
+        ],
+        "civilopediaText": [
+          {
+            "text": "星际文明：华夏未来整合包的科技分支。"
+          }
+        ]
+      }
+    ]
+  }
+]

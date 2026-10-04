@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Huaxia Imperial Academy",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "requiredTech": "Education",
+    "uniqueTo": "China",
+    "replaces": "University",
+    "culture": 2
+  },
+  {
+    "name": "Huaxia Industrial Zone",
+    "cost": 360,
+    "production": 5,
+    "percentStatBonus": {
+      "production": 15
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
+    "uniqueTo": "China",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Huaxia Science Park",
+    "science": 6,
+    "percentStatBonus": {
+      "science": 50
+    },
+    "specialistSlots": {
+      "Scientist": 1
+    },
+    "requiredBuilding": "Public School",
+    "maintenance": 3,
+    "requiredTech": "Plastics",
+    "uniqueTo": "China",
+    "replaces": "Research Lab"
+  },
+  {
+    "name": "Huaxia Launch Center",
+    "production": 3,
+    "maintenance": 3,
+    "requiredResource": "Aluminum",
+    "cost": 360,
+    "requiredBuilding": "Factory",
+    "uniques": [
+      "[+50]% Production when constructing [Spaceship part] units [in this city]"
+    ],
+    "requiredTech": "Robotics",
+    "uniqueTo": "China",
+    "replaces": "Spaceship Factory",
+    "science": 3
+  },
+  {
+    "name": "Huaxia Quantum Lab",
+    "requiredTech": "Huaxia Quantum Computing",
+    "cost": 650,
+    "maintenance": 4,
+    "science": 8,
+    "requiredBuilding": "Research Lab",
+    "percentStatBonus": {
+      "science": 20
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    }
+  },
+  {
+    "name": "Huaxia Fusion Plant",
+    "requiredTech": "Huaxia Controlled Fusion",
+    "cost": 750,
+    "maintenance": 4,
+    "production": 8,
+    "requiredBuilding": "Factory",
+    "percentStatBonus": {
+      "production": 20
+    }
+  },
+  {
+    "name": "Huaxia Vertical Farm",
+    "requiredTech": "Huaxia Climate Engineering",
+    "cost": 600,
+    "maintenance": 4,
+    "food": 6,
+    "requiredBuilding": "Hospital",
+    "percentStatBonus": {
+      "food": 15
+    }
+  },
+  {
+    "name": "Huaxia Orbital Spaceport",
+    "requiredTech": "Huaxia Orbital Logistics",
+    "cost": 900,
+    "maintenance": 6,
+    "gold": 8,
+    "science": 4,
+    "requiredBuilding": "Spaceship Factory",
+    "percentStatBonus": {
+      "gold": 15
+    }
+  },
+  {
+    "name": "Huaxia Arcology",
+    "requiredTech": "Huaxia Closed Ecosystems",
+    "cost": 1000,
+    "maintenance": 4,
+    "food": 8,
+    "culture": 4,
+    "requiredBuilding": "Huaxia Vertical Farm",
+    "uniques": [
+      "[+3 Happiness]"
+    ]
+  },
+  {
+    "name": "Huaxia Star Ark",
+    "requiredTech": "Huaxia Interstellar Civilization",
+    "cost": 3000,
+    "maintenance": 0,
+    "isNationalWonder": true,
+    "requiredBuilding": "Huaxia Orbital Spaceport",
+    "uniques": [
+      "Only available <in cities with a [Huaxia Fusion Plant]>",
+      "Only available <when [Huaxia Interstellar] Victory is enabled>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "完成未来科技主线，在拥有聚变发电站和轨道太空港的城市建造此项目，达成星际胜利。"
+      }
+    ]
+  }
+]

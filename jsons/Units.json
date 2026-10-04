@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Huaxia Type 99A",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 110,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "tankshot",
+    "uniqueTo": "China",
+    "replaces": "Modern Armor",
+    "upgradesTo": "Giant Death Robot"
+  },
+  {
+    "name": "Huaxia J-20",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 75,
+    "rangedStrength": 83,
+    "range": 12,
+    "interceptRange": 12,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+150]% Strength <vs [Bomber] units>",
+      "[+150]% Strength <vs [Helicopter] units>"
+    ],
+    "attackSound": "jetgun",
+    "uniqueTo": "China",
+    "replaces": "Jet Fighter"
+  },
+  {
+    "name": "Huaxia Type 055",
+    "unitType": "Ranged Water",
+    "movement": 7,
+    "strength": 88,
+    "rangedStrength": 110,
+    "range": 3,
+    "interceptRange": 2,
+    "cost": 425,
+    "requiredTech": "Robotics",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "Can see invisible [Submarine] units",
+      "Can carry [3] [Missile] units",
+      "[+100]% Strength <vs [Submarine] units>",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+      "Indirect Fire"
+    ],
+    "attackSound": "shipguns",
+    "uniqueTo": "China",
+    "replaces": "Missile Cruiser"
+  },
+  {
+    "name": "Huaxia PCL-191",
+    "unitType": "Siege",
+    "movement": 3,
+    "strength": 45,
+    "rangedStrength": 66,
+    "range": 3,
+    "cost": 425,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[+200]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus",
+      "[-1] Sight",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+      "Indirect Fire"
+    ],
+    "attackSound": "artillery",
+    "uniqueTo": "China",
+    "replaces": "Rocket Artillery"
+  },
+  {
+    "name": "J-36",
+    "unitType": "Bomber",
+    "movement": 2,
+    "strength": 85,
+    "rangedStrength": 145,
+    "range": 40,
+    "cost": 425,
+    "requiredTech": "Stealth",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
+      "Damage taken from interception reduced by [95]%"
+    ],
+    "promotions": [
+      "Evasion"
+    ],
+    "attackSound": "bombing",
+    "uniqueTo": "China",
+    "replaces": "Stealth Bomber",
+    "civilopediaText": [
+      {
+        "text": "中国专属无尾三角翼舰载空军单位，可由航母搭载。轰炸战斗力145，攻击范围40格，空中拦截伤害减少95%。"
+      },
+      {
+        "text": "原版手机兼容版，无需外部补丁。145是原版隐形轰炸机85轰炸战斗力的1.7倍取整；实际伤害由游戏战斗公式计算，不是固定1.7倍。普通防空单位反击按原版规则结算。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Autonomous Infantry",
+    "unitType": "Gunpowder",
+    "movement": 4,
+    "strength": 115,
+    "cost": 600,
+    "requiredTech": "Huaxia Autonomous Systems",
+    "uniques": [
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "tankshot",
+    "upgradesTo": "Huaxia Exoskeleton Guard",
+    "obsoleteTech": "Huaxia Nano Fabrication"
+  },
+  {
+    "name": "Huaxia Exoskeleton Guard",
+    "unitType": "Gunpowder",
+    "movement": 4,
+    "strength": 135,
+    "cost": 700,
+    "requiredTech": "Huaxia Nano Fabrication",
+    "uniques": [
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Huaxia Fusion Walker",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 180,
+    "cost": 800,
+    "requiredTech": "Huaxia Controlled Fusion",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "gdrAttack"
+  },
+  {
+    "name": "Huaxia Railgun Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 60,
+    "rangedStrength": 105,
+    "range": 4,
+    "cost": 750,
+    "requiredTech": "Huaxia Directed Energy",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[+200]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus",
+      "[-1] Sight",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+      "Indirect Fire"
+    ],
+    "attackSound": "artillery"
+  },
+  {
+    "name": "Huaxia Drone Wing",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 95,
+    "rangedStrength": 95,
+    "range": 16,
+    "interceptRange": 16,
+    "cost": 650,
+    "requiredTech": "Huaxia Autonomous Systems",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+150]% Strength <vs [Bomber] units>",
+      "[+150]% Strength <vs [Helicopter] units>"
+    ],
+    "attackSound": "jetgun"
+  },
+  {
+    "name": "Huaxia Future Cruiser",
+    "unitType": "Ranged Water",
+    "movement": 7,
+    "strength": 115,
+    "rangedStrength": 145,
+    "range": 3,
+    "interceptRange": 2,
+    "cost": 850,
+    "requiredTech": "Huaxia Directed Energy",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "Can see invisible [Submarine] units",
+      "Can carry [3] [Missile] units",
+      "[+100]% Strength <vs [Submarine] units>",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+      "Indirect Fire"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Huaxia Xuanyuan Mech",
+    "unitType": "Armored",
+    "movement": 5,
+    "strength": 198,
+    "cost": 800,
+    "requiredTech": "Huaxia Controlled Fusion",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "gdrAttack",
+    "uniqueTo": "China",
+    "replaces": "Huaxia Fusion Walker"
+  }
+]
