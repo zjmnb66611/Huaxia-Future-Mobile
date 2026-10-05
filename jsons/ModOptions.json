@@ -9,5 +9,8 @@
     "Mod is incompatible with [Huaxia Future Mobile Worlds]",
     "Mod is incompatible with [Future Expansion Continued]",
     "Mod is incompatible with [Future Worlds]"
-  ]
+  ],
+  "constants": {
+    "cityWorkRange": 6
+  }
 }
