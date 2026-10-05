@@ -142,5 +142,392 @@
         "text": "完成未来科技主线，在拥有聚变发电站和轨道太空港的城市建造此项目，达成星际胜利。"
       }
     ]
+  },
+  {
+    "name": "Huaxia Oriental Pearl",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1000,
+    "maintenance": 0,
+    "gold": 8,
+    "culture": 4,
+    "percentStatBonus": {
+      "gold": 15
+    },
+    "uniques": [
+      "Must be on [River]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "东方明珠，中国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：河流城市。收益：城市金币+8、文化+4，城市金币+15%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Empire State Building",
+    "isWonder": true,
+    "requiredTech": "Globalization",
+    "cost": 1250,
+    "maintenance": 0,
+    "gold": 12,
+    "production": 4,
+    "percentStatBonus": {
+      "gold": 20
+    },
+    "uniques": [
+      "[+3]% [Gold] [in all cities]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "帝国大厦，美国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：普通陆地城市。收益：城市金币+12、生产+4，城市金币+20%，全国金币+3%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Shanghai Tower",
+    "isWonder": true,
+    "requiredTech": "Robotics",
+    "cost": 1200,
+    "maintenance": 0,
+    "gold": 10,
+    "science": 4,
+    "percentStatBonus": {
+      "gold": 15
+    },
+    "uniques": [
+      "Must be on [River]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "上海中心大厦，中国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：河流城市。收益：城市金币+10、科研+4，城市金币+15%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Burj Khalifa",
+    "isWonder": true,
+    "requiredTech": "Globalization",
+    "cost": 1250,
+    "maintenance": 0,
+    "gold": 12,
+    "culture": 4,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "uniques": [
+      "Must be next to [Desert]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "哈利法塔，阿联酋的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：邻接沙漠。收益：城市金币+12、文化+4，城市金币+25%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Taipei 101",
+    "isWonder": true,
+    "requiredTech": "Globalization",
+    "cost": 1200,
+    "maintenance": 0,
+    "gold": 10,
+    "culture": 3,
+    "percentStatBonus": {
+      "gold": 20
+    },
+    "uniques": [
+      "[+25]% [Gold] from Trade Routes"
+    ],
+    "civilopediaText": [
+      {
+        "text": "台北101，中国台湾的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：普通陆地城市。收益：城市金币+10、文化+3，城市金币+20%，全国城市连接收入+25%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Marina Bay Sands",
+    "isWonder": true,
+    "requiredTech": "Globalization",
+    "cost": 1200,
+    "maintenance": 0,
+    "gold": 10,
+    "culture": 6,
+    "percentStatBonus": {
+      "gold": 20
+    },
+    "uniques": [
+      "Must be next to [Coast]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "滨海湾金沙，新加坡的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：海岸城市。收益：城市金币+10、文化+6，城市金币+20%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Elbphilharmonie",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1000,
+    "maintenance": 0,
+    "culture": 10,
+    "percentStatBonus": {
+      "culture": 20
+    },
+    "uniques": [
+      "Must be on [River]",
+      "[+10]% Great Person generation [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "易北爱乐音乐厅，德国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：河流城市。收益：城市文化+10、文化+20%，城市伟人诞生速度+10%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Louvre Abu Dhabi",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1100,
+    "maintenance": 0,
+    "culture": 10,
+    "science": 4,
+    "percentStatBonus": {
+      "culture": 15
+    },
+    "uniques": [
+      "Must be next to [Coast]",
+      "[+3]% [Culture] [in all cities]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "阿布扎比卢浮宫，阿联酋的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：海岸城市。收益：城市文化+10、科研+4，城市文化+15%，全国文化+3%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Guggenheim Bilbao",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1000,
+    "maintenance": 0,
+    "culture": 8,
+    "gold": 6,
+    "percentStatBonus": {
+      "culture": 20
+    },
+    "uniques": [
+      "Must be on [River]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "毕尔巴鄂古根海姆博物馆，西班牙的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：河流城市。收益：城市文化+8、金币+6，城市文化+20%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia National Centre for Performing Arts",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1100,
+    "maintenance": 0,
+    "culture": 12,
+    "percentStatBonus": {
+      "culture": 20
+    },
+    "uniques": [
+      "[+2 Happiness]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "国家大剧院，中国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：普通陆地城市。收益：城市文化+12、文化+20%，幸福度+2。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Tokyo Skytree",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1000,
+    "maintenance": 0,
+    "culture": 6,
+    "gold": 6,
+    "science": 4,
+    "percentStatBonus": {
+      "culture": 15
+    },
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "东京晴空塔，日本的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：普通陆地城市。收益：城市文化+6、金币+6、科研+4，城市文化+15%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Large Hadron Collider",
+    "isWonder": true,
+    "requiredTech": "Robotics",
+    "cost": 1400,
+    "maintenance": 0,
+    "science": 12,
+    "percentStatBonus": {
+      "science": 25
+    },
+    "uniques": [
+      "[+3]% [Science] [in all cities]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "大型强子对撞机，瑞士与法国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：普通陆地城市。收益：城市科研+12、科研+25%，全国科研+3%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia FAST Observatory",
+    "isWonder": true,
+    "requiredTech": "Satellites",
+    "cost": 1250,
+    "maintenance": 0,
+    "science": 12,
+    "percentStatBonus": {
+      "science": 25
+    },
+    "uniques": [
+      "Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"
+    ],
+    "civilopediaText": [
+      {
+        "text": "中国天眼FAST，中国的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：2格内有己方普通山脉。收益：城市科研+12、科研+25%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Very Large Telescope",
+    "isWonder": true,
+    "requiredTech": "Satellites",
+    "cost": 1200,
+    "maintenance": 0,
+    "science": 10,
+    "percentStatBonus": {
+      "science": 20
+    },
+    "uniques": [
+      "Must be next to [Desert]",
+      "Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"
+    ],
+    "civilopediaText": [
+      {
+        "text": "甚大望远镜阵列，智利的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：邻接沙漠且2格内有己方山脉。收益：城市科研+10、科研+20%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
+  },
+  {
+    "name": "Huaxia Ithra Cultural Centre",
+    "isWonder": true,
+    "requiredTech": "Telecommunications",
+    "cost": 1100,
+    "maintenance": 0,
+    "culture": 10,
+    "science": 6,
+    "percentStatBonus": {
+      "culture": 15
+    },
+    "uniques": [
+      "Must be next to [Desert]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "阿卜杜勒阿齐兹国王世界文化中心，沙特阿拉伯的现代地标。本包中的独立世界奇观，所有文明均可竞争建造。"
+      },
+      {
+        "text": "建造条件：邻接沙漠。收益：城市文化+10、科研+6，城市文化+15%。"
+      },
+      {
+        "text": "收益与选址限制为游戏平衡设定；不代表真实建筑的经济效果。"
+      }
+    ]
   }
 ]

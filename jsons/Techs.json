@@ -10,8 +10,7 @@
         "name": "Huaxia Quantum Computing",
         "row": 2,
         "prerequisites": [
-          "Computers",
-          "Particle Physics"
+          "Future Tech"
         ],
         "civilopediaText": [
           {
@@ -23,8 +22,7 @@
         "name": "Huaxia Smart Materials",
         "row": 5,
         "prerequisites": [
-          "Nanotechnology",
-          "Lasers"
+          "Future Tech"
         ],
         "civilopediaText": [
           {
@@ -36,7 +34,7 @@
         "name": "Huaxia Controlled Fusion",
         "row": 8,
         "prerequisites": [
-          "Nuclear Fusion"
+          "Future Tech"
         ],
         "civilopediaText": [
           {
@@ -57,8 +55,7 @@
         "name": "Huaxia Autonomous Systems",
         "row": 2,
         "prerequisites": [
-          "Huaxia Quantum Computing",
-          "Huaxia Smart Materials"
+          "Huaxia Quantum Computing"
         ],
         "civilopediaText": [
           {
@@ -70,8 +67,7 @@
         "name": "Huaxia Nano Fabrication",
         "row": 5,
         "prerequisites": [
-          "Huaxia Smart Materials",
-          "Huaxia Controlled Fusion"
+          "Huaxia Smart Materials"
         ],
         "civilopediaText": [
           {
@@ -83,8 +79,7 @@
         "name": "Huaxia Climate Engineering",
         "row": 8,
         "prerequisites": [
-          "Huaxia Controlled Fusion",
-          "Globalization"
+          "Huaxia Controlled Fusion"
         ],
         "civilopediaText": [
           {
@@ -105,8 +100,7 @@
         "name": "Huaxia Orbital Logistics",
         "row": 2,
         "prerequisites": [
-          "Huaxia Autonomous Systems",
-          "Satellites"
+          "Huaxia Autonomous Systems"
         ],
         "civilopediaText": [
           {
@@ -118,8 +112,7 @@
         "name": "Huaxia Directed Energy",
         "row": 5,
         "prerequisites": [
-          "Huaxia Nano Fabrication",
-          "Huaxia Quantum Computing"
+          "Huaxia Nano Fabrication"
         ],
         "civilopediaText": [
           {
@@ -131,8 +124,7 @@
         "name": "Huaxia Closed Ecosystems",
         "row": 8,
         "prerequisites": [
-          "Huaxia Climate Engineering",
-          "Huaxia Nano Fabrication"
+          "Huaxia Climate Engineering"
         ],
         "civilopediaText": [
           {
@@ -153,8 +145,7 @@
         "name": "Huaxia Space Manufacturing",
         "row": 2,
         "prerequisites": [
-          "Huaxia Orbital Logistics",
-          "Huaxia Nano Fabrication"
+          "Huaxia Orbital Logistics"
         ],
         "civilopediaText": [
           {
@@ -166,7 +157,6 @@
         "name": "Huaxia Deep Space Navigation",
         "row": 5,
         "prerequisites": [
-          "Huaxia Orbital Logistics",
           "Huaxia Directed Energy"
         ],
         "civilopediaText": [
@@ -176,12 +166,33 @@
         ]
       },
       {
-        "name": "Huaxia Interstellar Civilization",
+        "name": "Huaxia Planetary Coordination",
+        "civilopediaText": [
+          {
+            "text": "行星协同：整合闭环生态系统，协调地球与轨道定居点。"
+          }
+        ],
         "row": 8,
+        "prerequisites": [
+          "Huaxia Closed Ecosystems"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 22,
+    "era": "Huaxia Orbital era",
+    "techCost": 15500,
+    "buildingCost": 650,
+    "wonderCost": 1500,
+    "techs": [
+      {
+        "name": "Huaxia Interstellar Civilization",
+        "row": 5,
         "prerequisites": [
           "Huaxia Space Manufacturing",
           "Huaxia Deep Space Navigation",
-          "Huaxia Closed Ecosystems"
+          "Huaxia Planetary Coordination"
         ],
         "civilopediaText": [
           {

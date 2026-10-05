@@ -232,5 +232,36 @@
     "attackSound": "gdrAttack",
     "uniqueTo": "China",
     "replaces": "Huaxia Fusion Walker"
+  },
+  {
+    "name": "Huaxia Dongfeng Missile",
+    "unitType": "Missile",
+    "movement": 1,
+    "strength": 600,
+    "rangedStrength": 600,
+    "range": 4096,
+    "cost": 1800,
+    "requiredTech": "Advanced Ballistics",
+    "uniqueTo": "China",
+    "replaces": "Nuclear Missile",
+    "uniques": [
+      "Nuclear weapon of Strength [4]",
+      "Only available <if [Manhattan Project] is constructed>",
+      "Blast radius [4]",
+      "Consumes [2] [Uranium]",
+      "Cannot be intercepted"
+    ],
+    "attackSound": "nuke",
+    "civilopediaText": [
+      {
+        "text": "中国专属东风核导弹，替代核导弹。全球射程（4096格）、不可拦截、发射后消耗。"
+      },
+      {
+        "text": "核爆强度由原版2提高到4，爆炸半径由2格提高到4格。强度是核爆等级，不是所有目标扣血固定翻倍；可摧毁普通城市，原始首都仍受保护。"
+      },
+      {
+        "text": "仍须曼哈顿计划、2铀与已探索目标；遵守原版外交和核武规则。数值仅为游戏设定。"
+      }
+    ]
   }
 ]
